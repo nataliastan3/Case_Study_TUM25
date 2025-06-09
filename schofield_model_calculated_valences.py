@@ -5,7 +5,7 @@ import data_preprocessing.data_preprocess as dp
 import pipeline_helper_functions.schofield_model_helper as sm
 
 x_var="Democracy"
-y_var="Environmental Protection"
+y_var="Welfare State"
 
 # ------------------------------------------------------------- Data Preprocessing ---------------------------------------------------------------------------------------
 party_scaled, voter_scaled = dp.get_scaled_party_voter_data(x_var=x_var, y_var=y_var)
